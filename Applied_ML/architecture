@@ -1,0 +1,33 @@
+Architecture of Medical QA System
+
+User Query
+     |
+     ↓
+Sentence Transformer Model
+     |
+     ↓
+Query Embedding
+     |
+     ↓
+FAISS Vector Search
+     |
+     ↓
+Similarity Matching
+     |
+     ↓
+Relevant Medical Answers
+
+
+Components:
+
+1. Dataset Layer
+   - MedQuAD CSV dataset
+
+2. Embedding Layer
+   - Sentence Transformer converts text into vectors
+
+3. Search Layer
+   - FAISS performs similarity search
+
+4. Output Layer
+   - Displays retrieved answers

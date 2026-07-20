@@ -1,0 +1,31 @@
+Medical Question Answering System Report
+
+1. Introduction
+
+The objective of this project is to build a semantic retrieval system for medical questions using the MedQuAD dataset.
+
+2. Dataset Description
+
+The MedQuAD dataset contains medical questions, answers, and related medical topics.
+
+3. Methodology
+
+The question-answer pairs are converted into numerical embeddings using Sentence Transformer.
+
+FAISS is used to store and search these embeddings efficiently.
+
+4. Implementation
+
+Steps:
+- Load dataset
+- Generate embeddings
+- Create FAISS index
+- Retrieve similar answers for user queries
+
+5. Result
+
+The system successfully retrieves relevant medical information based on user questions.
+
+6. Conclusion
+
+A semantic search-based medical QA system was developed using NLP techniques and vector similarity search.

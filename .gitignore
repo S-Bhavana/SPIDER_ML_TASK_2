@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets
+Applied_ML/dataset/*.csv
+Applied_ML/dataset/data
+Level_1_Resnet/code/data/
+Level_2_Custom_LSTM/data/*.csv
+Level_2_Custom_LSTM/data/*.zip
+
+# Model weights
+*.pth
+
+# Generated outputs (optional)
+*.png
